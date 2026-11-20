@@ -3,8 +3,8 @@ import NavBar from "./components/NavBar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NextBites",
-  description: "A little recipe site",
+  title: "NextBites · Quick recipes you'll actually cook",
+  description: "A tiny recipe app built with Next.js.",
 };
 
 export default function RootLayout({
