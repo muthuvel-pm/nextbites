@@ -81,3 +81,15 @@ a.card:hover { transform: translateY(-4px); }
 }
 .recipe-page h2 { margin: 24px 0 8px; }
 .recipe-page ul, .recipe-page ol { padding-left: 24px; line-height: 1.7; }
+
+.status { color: #666; margin: 12px 0 20px; }
+
+.retry {
+  padding: 10px 20px;
+  background: #ff6b35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
