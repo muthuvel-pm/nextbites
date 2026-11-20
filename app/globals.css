@@ -48,3 +48,48 @@ main h1 { margin-bottom: 24px; }
   font-size: 0.85rem;
   color: #666;
 }
+
+a.card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s;
+}
+a.card:hover { transform: translateY(-4px); }
+
+.search {
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.empty { color: #666; padding: 24px 0; }
+
+.recipe-page { max-width: 700px; }
+.back { display: inline-block; margin-bottom: 16px; color: #ff6b35; text-decoration: none; }
+.recipe-hero {
+  font-size: 6rem;
+  text-align: center;
+  background: #fff1e8;
+  border-radius: 12px;
+  padding: 24px 0;
+  margin-bottom: 16px;
+}
+.recipe-page h2 { margin: 24px 0 8px; }
+.recipe-page ul, .recipe-page ol { padding-left: 24px; line-height: 1.7; }
+
+.status { color: #666; margin: 12px 0 20px; }
+
+.retry {
+  padding: 10px 20px;
+  background: #ff6b35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
